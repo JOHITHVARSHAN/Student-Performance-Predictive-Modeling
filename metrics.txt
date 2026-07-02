@@ -1,0 +1,46 @@
+==============================================================
+  STUDENT PERFORMANCE PREDICTIVE MODELING – METRICS REPORT
+==============================================================
+
+Dataset   : 1000 students,  10 features
+Target    : avg_score (mean of math / reading / writing)
+Split     : 80% train (800)  |  20% test (200)
+
+--- BASELINE (mean predictor) ---
+  RMSE = 9.5926
+  MAE  = 7.6693
+  R2   = -0.0002
+
+--- RIDGE REGRESSION ---
+  Test  R2   = 0.6917
+  Test  RMSE = 5.3258
+  Test  MAE  = 4.2052
+  CV    R2   = 0.6935 +/- 0.0267
+  Error reduction vs baseline = 44.5%
+
+--- RANDOM FOREST ---
+  Test  R2   = 0.6671
+  Test  RMSE = 5.5343
+  Test  MAE  = 4.3586
+  CV    R2   = 0.6449 +/- 0.0416
+  Error reduction vs baseline = 42.3%
+
+--- GRADIENT BOOSTING ---
+  Test  R2   = 0.6492
+  Test  RMSE = 5.6807
+  Test  MAE  = 4.5605
+  CV    R2   = 0.6103 +/- 0.0390
+  Error reduction vs baseline = 40.8%
+
+==============================================================
+  BEST MODEL: Ridge Regression
+  R2=0.6917  RMSE=5.3258  Err.Reduction=44.5%
+==============================================================
+
+RESUME BULLET:
+  "Developed and validated Ridge Regression predicting student
+   academic outcomes with R2=0.69, RMSE=5.33;
+   reduced prediction error by 44% vs baseline
+   mean predictor; implemented full end-to-end ML pipeline."
+
+==============================================================
