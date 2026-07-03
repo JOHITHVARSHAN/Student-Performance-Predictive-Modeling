@@ -16,13 +16,6 @@ A **full end-to-end machine learning pipeline** predicting student academic outc
 > Ridge Regression achieved the best generalisation: **R² = 0.69**, reducing prediction error by **44.5%** vs. naive baseline.
 
 ---
-
-## 🚀 Resume Bullet
-
-> *"Developed and validated a Ridge Regression model predicting student academic outcomes (R² = 0.69, RMSE = 5.33); reduced prediction error by 44% vs. baseline mean predictor; implemented full end-to-end ML pipeline — feature engineering, 5-fold cross-validation, and rigorous model comparison across 3 algorithms."*
-
----
-
 ## 📂 Project Structure
 
 ```
